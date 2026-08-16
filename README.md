@@ -18,6 +18,7 @@ Current priorities include:
 - Practical desktop and CLI tooling
 - Systems programming and automation
 - Exploring Rust for AI/ML and high-performance applications
+- Frontend development with React and TypeScript
 - Clear, maintainable software design
 
 ---
@@ -42,6 +43,7 @@ Offers both a CLI (`xgs`) and a web interface. Supports data ingestion from comm
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
 **Platforms & Environments**
@@ -52,7 +54,7 @@ Offers both a CLI (`xgs`) and a web interface. Supports data ingestion from comm
 ![Desktop](https://img.shields.io/badge/Desktop-24C8DB?style=for-the-badge&logo=tauri&logoColor=white)
 
 **Domains**  
-Cybersecurity · Software Engineering · OSINT · Cellular / RF Intelligence · Geospatial Analysis · Automation · Product Research Tooling · Systems Development · Rust for AI/ML
+Cybersecurity · Software Engineering · OSINT · Cellular / RF Intelligence · Geospatial Analysis · Automation · Product Research Tooling · Systems Development · Rust for AI/ML · Frontend (React)
 
 ---
 
@@ -64,8 +66,9 @@ Cybersecurity · Software Engineering · OSINT · Cellular / RF Intelligence · 
 - Build tools that remain usable in real operational contexts
 - Maintain separation between research tooling and production claims
 - Continuously deepen systems-level and AI/ML-related capabilities in Rust
+- Apply modern frontend practices with React and TypeScript where appropriate
 
------
+---
 
 ### Links
 
