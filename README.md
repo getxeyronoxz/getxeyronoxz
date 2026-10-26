@@ -4,12 +4,23 @@
 
 Working across defensive security, OSINT, systems engineering, and automation. My focus is building local-first software that prioritizes data sovereignty, deterministic logic, and real operational utility. Currently deepening expertise in **Rust** for systems-level infrastructure, high-performance computing, and AI/ML workflows.
 
+> *Old life deleted. New framework loading.* · **the silent wish forever remembered**
+
+---
+
+### About
+
+- **Local-first by default.** Sensitive operational data stays on the operator's machine — no telemetry, no involuntary cloud exposure, no silent ingestion.
+- **Deterministic by design.** Reproducible artifacts, auditable decisions, exact calculations instead of opaque heuristics.
+- **Pragmatic at the boundary.** Local, hybrid, and cloud-assisted models are chosen based on operational requirements, not fashion.
+- **Built for operators.** Stable, inspectable tools designed for real analyst and developer workflows.
+
 ---
 
 ### Focus & Specialties
 
 - **Defensive Security & OSINT:** Cellular intelligence, RF signal capture (RTL-SDR), cell-tower mapping, geospatial correlation, and network analysis.
-- **Local-First Architecture:** Inspectable on-device data storage, reproducible artifacts, zero telemetry or involuntary cloud exposure.
+- **Local-First Architecture:** Inspectable on-device storage, reproducible artifacts, zero telemetry or involuntary cloud exposure.
 - **Systems & Automation:** CLI tooling, high-performance services, low-overhead workflows, and automation pipelines.
 - **Modern User Interfaces:** Cross-platform desktop workbenches (Electron, React, TypeScript) and responsive web dashboards.
 
@@ -17,17 +28,26 @@ Working across defensive security, OSINT, systems engineering, and automation. M
 
 ### Featured Projects
 
-#### [`open-merchant`](https://github.com/getxeyronoxz/open-merchant)
-*Local-first, AI-native commerce research workbench for evidence-based decision making.*
-- **Core Capabilities:** Competitor intelligence, exact-decimal unit economics, and inspectable opportunity reports.
-- **Architecture:** TypeScript monorepo built with Electron (Windows, macOS, Linux).
-- **Design Philosophy:** Specialist AI assistants draft inspectable proposals with explicit human approval gates. All calculations are deterministic, and all project data remains entirely on the operator's machine.
+#### [`open-merchant`](https://github.com/getxeyronoxz/open-merchant) · Local-first, AI-native commerce research workbench
+- **Core capabilities:** Competitor intelligence, exact-decimal unit economics, evidence-linked opportunity reports.
+- **Architecture:** TypeScript monorepo, Electron across Windows / macOS / Linux. Includes a read-only MCP server.
+- **Design philosophy:** AI assistants draft inspectable proposals with explicit human approval gates — nothing acts on its own.
 
-#### [`XGhostSignal`](https://github.com/getxeyronoxz/XGhostSignal)
-*Local-first OSINT and cellular-intelligence workbench for operational analysis.*
-- **Core Capabilities:** Cell-tower mapping, phone enrichment, live RF detection (RTL-SDR), and graph-based entity correlation.
-- **Interface:** Dual interface — fast CLI (`xgs`) and web dashboard, featuring local LLM summarization and multiple export formats.
-- **Design Philosophy:** Engineered for authorized research and signal intelligence; zero external data leakage.
+#### [`XGhostSignal`](https://github.com/getxeyronoxz/XGhostSignal) · Local-first OSINT & cellular intelligence
+- **Core capabilities:** Cell-tower mapping, phone enrichment, live RF detection (RTL-SDR), graph-based entity correlation.
+- **Interface:** Dual — fast CLI (`xgs`) plus web dashboard, with local LLM summarization and multiple export formats.
+- **Design philosophy:** Built for authorized research and signal intelligence; zero external data leakage.
+
+#### [`Hasu`](https://github.com/getxeyronoxz/Hasu) · Desktop AI companion
+- **Core capabilities:** 3D AI desktop companion for Windows powered by Gemini Live.
+- **Architecture:** Desktop application with character preview/studio workflow.
+- **Design philosophy:** Local, interactive, inspectable runtime instead of a black-box companion.
+
+#### [`hivex`](https://github.com/getxeyronoxz/hivex) · Research track
+- **Core capabilities:** From-scratch English-focused MoE language model — Phase A validates architecture before any capability claim.
+- **Design philosophy:** Measured claims over hype; reproducible experiments recorded as kernel variants.
+
+More projects: [`ade`](https://github.com/getxeyronoxz/ade) (agent/LLM dev workspace), [`loklex`](https://github.com/getxeyronoxz/loklex) (community workspace & chat), [`cyber-defence-hub`](https://github.com/getxeyronoxz/cyber-defence-hub) (security tooling), [`getxeyronoxz`](https://github.com/getxeyronoxz).
 
 ---
 
@@ -67,4 +87,4 @@ Working across defensive security, OSINT, systems engineering, and automation. M
 
 ---
 
-<sub>**the silent wish forever remembered** · <em>Old life deleted. New framework loading.</em></sub>
+<sub>**the silent wish forever remembered** · *Old life deleted. New framework loading.*</sub>
