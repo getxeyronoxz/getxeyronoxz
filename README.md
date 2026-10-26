@@ -38,17 +38,6 @@ Working across defensive security, OSINT, systems engineering, and automation. M
 - **Interface:** Dual — fast CLI (`xgs`) plus web dashboard, with local LLM summarization and multiple export formats.
 - **Design philosophy:** Built for authorized research and signal intelligence; zero external data leakage.
 
-#### [`Hasu`](https://github.com/getxeyronoxz/Hasu) · Desktop AI companion
-- **Core capabilities:** 3D AI desktop companion for Windows powered by Gemini Live.
-- **Architecture:** Desktop application with character preview/studio workflow.
-- **Design philosophy:** Local, interactive, inspectable runtime instead of a black-box companion.
-
-#### [`hivex`](https://github.com/getxeyronoxz/hivex) · Research track
-- **Core capabilities:** From-scratch English-focused MoE language model — Phase A validates architecture before any capability claim.
-- **Design philosophy:** Measured claims over hype; reproducible experiments recorded as kernel variants.
-
-More projects: [`ade`](https://github.com/getxeyronoxz/ade) (agent/LLM dev workspace), [`loklex`](https://github.com/getxeyronoxz/loklex) (community workspace & chat), [`cyber-defence-hub`](https://github.com/getxeyronoxz/cyber-defence-hub) (security tooling), [`getxeyronoxz`](https://github.com/getxeyronoxz).
-
 ---
 
 ### Technical Toolkit
