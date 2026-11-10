@@ -1,74 +1,68 @@
+<div align="center">
+
 # Xeyronox
+**Systems Engineering · Defensive Security · High-Assurance Local Tooling**
 
-**Software engineer & cybersecurity practitioner focused on practical, high-assurance tooling.**
-
-Working across defensive security, OSINT, systems engineering, and automation. My focus is building local-first software that prioritizes data sovereignty, deterministic logic, and real operational utility. Currently deepening expertise in **Rust** for systems-level infrastructure, high-performance computing, and AI/ML workflows.
-
-> *Old life deleted. New framework loading.* · **the silent wish forever remembered**
+> *Old life deleted. New framework loading.*  
+> <sub>the silent wish forever remembered</sub>
 
 ---
 
-### About
+</div>
 
-- **Local-first by default.** Sensitive operational data stays on the operator's machine — no telemetry, no involuntary cloud exposure, no silent ingestion.
-- **Deterministic by design.** Reproducible artifacts, auditable decisions, exact calculations instead of opaque heuristics.
-- **Pragmatic at the boundary.** Local, hybrid, and cloud-assisted models are chosen based on operational requirements, not fashion.
-- **Built for operators.** Stable, inspectable tools designed for real analyst and developer workflows.
+### ⚡ Systems & Workbenches
 
----
+#### 🛡️ [`local-upi-ledger`](https://github.com/getxeyronoxz/local-upi-ledger) &nbsp; `[In Active Deployment]`
+*Local-first UPI transaction aggregator for Samsung Galaxy / Android 16 & 17.*
+- **Current State:** Active hardware validation & deployment (tested on One UI 8.5/9, Samsung Galaxy F15 5G).
+- **Security Boundaries:** Zero internet permissions (`0 INTERNET` in manifest); SQLCipher 4.x encrypted persistence bound to hardware Android Keystore (AES-256 GCM).
+- **Runtime Mechanism:** In-memory `AccessibilityNodeInfo` hierarchy inspection to extract transaction receipts past banking `FLAG_SECURE` restrictions without root.
+- **Stack:** `Kotlin` · `Jetpack Compose` · `SQLCipher` · `Room` · `AGPL-3.0`
 
-### Focus & Specialties
+#### ⚖️ [`open-merchant`](https://github.com/getxeyronoxz/open-merchant) &nbsp; `[Completed / Stable v1.0.1]`
+*AI-native, local-first desktop workbench for commercial decision modeling & unit economics.*
+- **Current State:** Stable production release (`v1.0.1`). Cross-platform desktop binaries for Windows, macOS, and Linux.
+- **Core Engine:** Exact-decimal ledger calculations (zero floating-point distortion, zero LLM math); atomic on-disk project stores with verifiable provenance.
+- **Human Gate:** "Draft Desk" staging queue where model outputs remain inert until human acceptance; includes read-only stdio MCP server (`open-merchant-mcp`).
+- **Stack:** `TypeScript` · `Electron` · `React` · `Zod` · `stdio MCP` · `AGPL-3.0`
 
-- **Defensive Security & OSINT:** Cellular intelligence, RF signal capture (RTL-SDR), cell-tower mapping, geospatial correlation, and network analysis.
-- **Local-First Architecture:** Inspectable on-device storage, reproducible artifacts, zero telemetry or involuntary cloud exposure.
-- **Systems & Automation:** CLI tooling, high-performance services, low-overhead workflows, and automation pipelines.
-- **Modern User Interfaces:** Cross-platform desktop workbenches (Electron, React, TypeScript) and responsive web dashboards.
-
----
-
-### Featured Projects
-
-#### [`open-merchant`](https://github.com/getxeyronoxz/open-merchant) · Local-first, AI-native commerce research workbench
-- **Core capabilities:** Competitor intelligence, exact-decimal unit economics, evidence-linked opportunity reports.
-- **Architecture:** TypeScript monorepo, Electron across Windows / macOS / Linux. Includes a read-only MCP server.
-- **Design philosophy:** AI assistants draft inspectable proposals with explicit human approval gates — nothing acts on its own.
-
-#### [`XGhostSignal`](https://github.com/getxeyronoxz/XGhostSignal) · Local-first OSINT & cellular intelligence
-- **Core capabilities:** Cell-tower mapping, phone enrichment, live RF detection (RTL-SDR), graph-based entity correlation.
-- **Interface:** Dual — fast CLI (`xgs`) plus web dashboard, with local LLM summarization and multiple export formats.
-- **Design philosophy:** Built for authorized research and signal intelligence; zero external data leakage.
+#### 📡 [`XGhostSignal`](https://github.com/getxeyronoxz/XGhostSignal) &nbsp; `[Completed / Stable v0.2.0]`
+*Local-first OSINT & cellular intelligence workbench.*
+- **Current State:** Stable release (`v0.2.0`). Dual fast CLI (`xgs`) and browser-based analyst console.
+- **Capabilities:** Cell tower mapping (OpenCelliD/CellMapper), live RTL-SDR RF spectrum burst detection, ADS-B aircraft tracking, and Cytoscape/NetworkX entity correlation.
+- **Stack:** `Python 3.9+` · `FastAPI` · `Typer` · `SQLAlchemy` · `PyRtlSdr` · `Scapy` · `MIT`
 
 ---
 
-### Technical Toolkit
+<details>
+<summary><b>🛠️ Technical Toolkit (Click to expand)</b></summary>
+<br>
 
-**Languages**  
-[![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-[![Python](https://img.shields.io/badge/Python-1f2937?style=flat-square&logo=python&logoColor=38bdf8)](https://www.python.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-1f2937?style=flat-square&logo=typescript&logoColor=3178c6)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-1f2937?style=flat-square&logo=react&logoColor=61dafb)](https://react.dev/)
-[![Kotlin](https://img.shields.io/badge/Kotlin-1f2937?style=flat-square&logo=kotlin&logoColor=a855f7)](https://kotlinlang.org/)
-[![Bash](https://img.shields.io/badge/Bash-1f2937?style=flat-square&logo=gnubash&logoColor=4ade80)](https://www.gnu.org/software/bash/)
+| Layer | Tools & Technologies |
+|---|---|
+| **Core Languages** | `Rust` · `Kotlin` · `Python` · `TypeScript` · `Bash` · `C# (.NET)` |
+| **Mobile & Client** | Android 16/17 (One UI 8.5/9) · Jetpack Compose · Compose Multiplatform · Electron · React |
+| **Services & Web** | Next.js 16 (App Router) · FastAPI · Node.js · Supabase (Postgres 17 / RLS) |
+| **Security & Crypto** | Hardware Android Keystore · SQLCipher (AES-256) · Windows DPAPI · RAM Inspection |
+| **Signals & OSINT** | RTL-SDR (Live RF) · OpenCelliD · CellMapper · Scapy (PCAP) · NetworkX · Cytoscape.js |
+| **AI Tooling & Packaging** | Model Context Protocol (MCP) · `uv` toolchain · PyTorch · Local LLMs (Ollama) |
 
-**Platforms & Environments**  
-[![Linux](https://img.shields.io/badge/Linux-1f2937?style=flat-square&logo=linux&logoColor=facc15)](https://www.kernel.org/)
-[![Windows](https://img.shields.io/badge/Windows-1f2937?style=flat-square&logo=windows&logoColor=38bdf8)](https://www.microsoft.com/windows)
-[![macOS](https://img.shields.io/badge/macOS-1f2937?style=flat-square&logo=apple&logoColor=white)](https://www.apple.com/macos/)
-[![CLI](https://img.shields.io/badge/CLI-1f2937?style=flat-square&logo=windowsterminal&logoColor=white)](#)
-[![Desktop](https://img.shields.io/badge/Desktop-1f2937?style=flat-square&logo=electron&logoColor=93c5fd)](#)
+</details>
+
+<details>
+<summary><b>🏛️ Operational Doctrine (Click to expand)</b></summary>
+<br>
+
+- **Data Sovereignty:** Local-first by default. Sensitive operational data stays exclusively on the operator's machine. Zero telemetry, zero involuntary cloud exposure, zero silent ingestion.
+- **Deterministic Rigor:** Exact calculations, reproducible artifacts, and verifiable audit trails over opaque heuristics.
+- **Pragmatic Architecture:** System boundaries (local, hybrid, or cloud-assisted) chosen strictly on threat model and performance requirements.
+- **Operator-in-the-Loop:** Autonomous processes only draft and stage; high-consequence operations require explicit human confirmation.
+
+</details>
 
 ---
 
-### Engineering Principles
-
-- **Data Sovereignty:** Prioritize local-first architecture. Sensitive operational data belongs strictly on the operator's machine.
-- **Deterministic Rigor:** Favor exact calculations, verifiable provenance, and auditable artifacts over opaque heuristics.
-- **Pragmatic Architecture:** Select system boundaries (local, hybrid, or cloud-assisted) strictly based on operational requirements.
-- **Operational Utility:** Build stable, maintainable, low-overhead tools designed for real-world analyst and developer workflows.
-
----
-
-### Connect
+### 📡 Connect
 
 [![GitHub](https://img.shields.io/badge/GitHub-getxeyronoxz-1f2937?style=flat-square&logo=github&logoColor=white)](https://github.com/getxeyronoxz)
 [![X](https://img.shields.io/badge/X-@xeyronox-1f2937?style=flat-square&logo=x&logoColor=white)](https://x.com/xeyronox)
@@ -76,4 +70,6 @@ Working across defensive security, OSINT, systems engineering, and automation. M
 
 ---
 
-<sub>**the silent wish forever remembered** · *Old life deleted. New framework loading.*</sub>
+<div align="center">
+<sub><b>the silent wish forever remembered</b> · <i>Old life deleted. New framework loading.</i></sub>
+</div>
