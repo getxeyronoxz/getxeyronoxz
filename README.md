@@ -31,9 +31,10 @@
 
 ### ⚡ Shipped & Active Systems
 
-#### 🌸 [`Hasu`](https://github.com/getxeyronoxz/Hasu) &nbsp; `🟢 [Active Release / v2.0]`
+#### 🌸 [`Hasu`](https://github.com/getxeyronoxz/Hasu) &nbsp; `🟡 [In Active Testing / v2.0]`
 *Private 3D AI desktop companion engineered for symbiotic human-AI desktop interaction.*
-- **Multi-Runtime Architecture:** Native **Rust Core** host (`crates/hasu-core`) with transparent DirectComposition windowing and 60Hz physics, paired with an ultra-fast **.NET 10** native sidecar (`desktop_agent.net`) for Win32 SendInput and UI Automation (zero Python overhead).
+- **Current State:** Active testing and hardware/UI validation (pre-release build testing Rust Core DirectComposition + .NET 10 sidecar).
+- **Multi-Runtime Architecture:** Native **Rust Core** host (crates/hasu-core) with transparent DirectComposition windowing and 60Hz physics, paired with an ultra-fast **.NET 10** native sidecar (`desktop_agent.net`) for Win32 SendInput and UI Automation (zero Python overhead).
 - **Cognitive & Voice Engine:** Low-latency bidirectional voice streaming via Gemini 3.8 Live, multi-tier memory consolidation (episodic, working, vector), and deep reasoning via Gemini 4.
 - **Security Boundaries:** API keys encrypted locally with **Windows DPAPI**; destructive actions gated by an interactive capability lease confirmation broker; zero telemetry.
 - **Tech Stack:** `Rust` · `.NET 10 (C#)` · `TypeScript` · `Three.js (VRM/MMD)` · `Gemini Live & 4` · `Apache-2.0`
