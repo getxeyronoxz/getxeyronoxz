@@ -1,9 +1,9 @@
 <div align="center">
 
 # Xeyronox
-**Systems Engineer · Defensive Security · High-Assurance Tooling**
+**Systems Engineer · Defensive Security · Local-First Architecture**
 
-[![Available for Hire](https://img.shields.io/badge/Status-Available%20for%20Work%20%2F%20Contracts-10b981?style=flat-square&logo=github)](https://github.com/getxeyronoxz)
+[![Activity Status](https://img.shields.io/badge/Activity-Low%20Online%20%2F%20Async%20Mode-6b7280?style=flat-square)](#)
 [![GitHub](https://img.shields.io/badge/GitHub-getxeyronoxz-1f2937?style=flat-square&logo=github&logoColor=white)](https://github.com/getxeyronoxz)
 [![X](https://img.shields.io/badge/X-@xeyronox-1f2937?style=flat-square&logo=x&logoColor=white)](https://x.com/xeyronox)
 [![Instagram](https://img.shields.io/badge/Instagram-@xeyronox-1f2937?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/xeyronox)
@@ -22,11 +22,13 @@
 
 ### 👤 About
 
-I build local-first software, defensive security tools, and high-assurance desktop and mobile systems. My focus is on software where **data sovereignty** is non-negotiable, arithmetic is deterministic, and machine learning models assist without seizing unverified control.
+I build local-first software, defensive security tools, and high-assurance desktop and mobile systems. My work prioritizes **data sovereignty**, deterministic logic, and software that runs strictly on the operator's machine.
 
-* **Systems & Desktop:** Multi-runtime Windows architectures combining custom **Rust Win32** hosts with native **.NET 10 AOT** automation sidecars.
-* **Android Internals:** Direct memory extraction via accessibility trees, 16 KB page alignment for Android 16/17, and hardware-backed cryptographic vaults.
-* **Autonomous AI & Protocols:** Air-gapped Model Context Protocol (`stdio MCP`) servers and real-time voice companions.
+> **Operational Notice:** Operating in **low-activity / async mode** due to personal commitments and offline priorities. I am less online and do not maintain constant presence, advancing code in focused intermittent windows.
+
+* **Current Active Focus:** Directing available development time strictly toward **Hasu** and **local-upi-ledger**.
+* **Systems & Desktop:** Rust Win32 DirectComposition shells combined with native .NET 10 automation sidecars.
+* **Android Security:** In-memory accessibility parsing, 16 KB page alignment for Android 16/17, and hardware Keystore cryptographic isolation.
 
 ---
 
@@ -35,8 +37,8 @@ I build local-first software, defensive security tools, and high-assurance deskt
 | Domain | Technologies & Frameworks |
 |:---|:---|
 | **Languages** | `Rust` · `C# (.NET 10)` · `Kotlin` · `TypeScript` · `Python` · `Bash` |
-| **Desktop & Systems** | Rust Core (`DirectComposition` alpha shell) · .NET 10 Native AOT · Win32 API · Electron |
-| **Mobile & Android** | Android 16/17 (Samsung One UI 8.5/9) · Jetpack Compose · Compose Multiplatform · Room |
+| **Desktop & Systems** | Rust Core (`DirectComposition` shell) · .NET 10 Native AOT · Win32 API · Electron |
+| **Mobile & Android** | Android 16/17 (Samsung One UI 8.5/9) · Jetpack Compose · Room · SQLCipher |
 | **Security & Privacy** | Hardware Android Keystore · SQLCipher (AES-256) · Windows DPAPI · RAM Inspection |
 | **AI & Protocols** | Gemini 3.8 Live (Voice) · Gemini 4 · Model Context Protocol (MCP) · Local Ollama |
 
@@ -44,23 +46,23 @@ I build local-first software, defensive security tools, and high-assurance deskt
 
 ### ⚡ Selected Projects
 
-#### 🌸 [`Hasu`](https://github.com/getxeyronoxz/Hasu) &nbsp; `🟡 [In Testing / v2.0]`
-*Private 3D AI desktop companion engineered for symbiotic human-AI desktop interaction.*
-* **Dual-Runtime Core:** Native **Rust Core** host (`hasu-core`) handling transparent Win32 DirectComposition windowing and 60Hz physics, paired with a self-contained **.NET 10** native sidecar (`desktop_agent.net`) for Win32 SendInput and UI Automation.
-* **Intelligence & Voice:** Low-latency bidirectional voice streaming via Gemini 3.8 Live, multi-tier vector memory consolidation, and deep reasoning via Gemini 4.
-* **Security:** Keys encrypted locally with Windows DPAPI; interactive capability-lease confirmation broker; zero telemetry.
+#### 🌸 [`Hasu`](https://github.com/getxeyronoxz/Hasu) &nbsp; `🟡 [In Testing / Current Focus]`
+*Private 3D desktop companion engineered for symbiotic human-AI interaction. Advanced in focused cycles.*
+* **Dual-Runtime Engine:** Native **Rust Core** host (`hasu-core`) handling transparent DirectComposition windowing and 60Hz physics, communicating over local IPC with a self-contained **.NET 10** sidecar (`desktop_agent.net`) for Win32 SendInput and UI Automation.
+* **Voice & Intelligence:** Real-time bidirectional voice streaming via Gemini 3.8 Live, multi-tier vector memory consolidation, and deep reasoning via Gemini 4.
+* **Security:** Keys sealed via local Windows DPAPI; interactive confirmation broker for OS actions; zero telemetry.
 * **Stack:** `Rust` · `.NET 10 (C#)` · `TypeScript` · `Three.js` · `Apache-2.0`
 
-#### 🛡️ [`local-upi-ledger`](https://github.com/getxeyronoxz/local-upi-ledger) &nbsp; `🟡 [In Deployment]`
+#### 🛡️ [`local-upi-ledger`](https://github.com/getxeyronoxz/local-upi-ledger) &nbsp; `🟡 [In Deployment / Current Focus]`
 *Zero-permission UPI transaction aggregator engineered for Android 16 & 17.*
-* **Air-Gapped Operation:** Operates with `0 INTERNET` permissions in manifest; persistence protected by SQLCipher 4.x (AES-256 GCM) with keys anchored in hardware Android Keystore.
+* **Air-Gapped Operation:** Operates with `0 INTERNET` permissions in manifest; storage encrypted with SQLCipher 4.x (AES-256 GCM) backed by hardware Android Keystore.
 * **In-Memory Extraction:** Inspects active `AccessibilityNodeInfo` hierarchy to parse transaction logs past banking `FLAG_SECURE` screen restrictions without root.
 * **Stack:** `Kotlin` · `Jetpack Compose` · `SQLCipher` · `Room` · `AGPL-3.0`
 
-#### ⚖️ [`open-merchant`](https://github.com/getxeyronoxz/open-merchant) &nbsp; `🟢 [Completed / v1.0.1]`
-*AI-native, cross-platform desktop workbench for product economics & decision modeling.*
-* **Exact Arithmetic:** Exact-decimal ledger calculations executed purely in verified code (zero floating-point drift, zero LLM hallucinations).
-* **Air-Gapped AI:** "Draft Desk" human-verification buffer with a bundled read-only stdio MCP server (`open-merchant-mcp`).
+#### ⚖️ [`open-merchant`](https://github.com/getxeyronoxz/open-merchant) &nbsp; `🟢 [v1.0.1 / Frozen Baseline]`
+*AI-native desktop workbench for commercial decision modeling & exact-decimal economics.*
+* **Status:** Completed baseline release (`v1.0.1`). Currently frozen with no ongoing updates or active feature additions.
+* **Core Function:** Exact-decimal ledger calculations (zero floating-point drift) with atomic disk persistence and an air-gapped read-only stdio MCP server.
 * **Stack:** `TypeScript` · `Electron` · `React` · `Zod` · `stdio MCP` · `AGPL-3.0`
 
 ---
