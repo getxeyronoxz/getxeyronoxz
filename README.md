@@ -26,8 +26,8 @@ I build local-first software, defensive security tools, and high-assurance deskt
 
 > **Operational Notice:** Operating in **low-activity / async mode** due to personal commitments and offline priorities. I am less online and do not maintain constant presence, advancing code in focused intermittent windows.
 
-* **Current Active Focus:** Directing available development time strictly toward **Hasu** and **local-upi-ledger**.
-* **Systems & Desktop:** Rust Win32 DirectComposition shells combined with native .NET 10 automation sidecars.
+* **Current Active Focus:** Directing available development time toward **local-upi-ledger** and low-overhead systems tooling.
+* **Systems & Desktop:** Native Windows and Linux utilities, offline data engines, and deterministic tools.
 * **Android Security:** In-memory accessibility parsing, 16 KB page alignment for Android 16/17, and hardware Keystore cryptographic isolation.
 
 ---
@@ -36,22 +36,15 @@ I build local-first software, defensive security tools, and high-assurance deskt
 
 | Domain | Technologies & Frameworks |
 |:---|:---|
-| **Languages** | `Rust` · `C# (.NET 10)` · `Kotlin` · `TypeScript` · `Python` · `Bash` |
-| **Desktop & Systems** | Rust Core (`DirectComposition` shell) · .NET 10 Native AOT · Win32 API · Electron |
+| **Languages** | `Rust` · `Kotlin` · `Python` · `TypeScript` · `C# (.NET)` · `Bash` |
+| **Desktop & Systems** | Win32 API · .NET Native AOT · Electron · CLI Tooling |
 | **Mobile & Android** | Android 16/17 (Samsung One UI 8.5/9) · Jetpack Compose · Room · SQLCipher |
 | **Security & Privacy** | Hardware Android Keystore · SQLCipher (AES-256) · Windows DPAPI · RAM Inspection |
-| **AI & Protocols** | Gemini 3.8 Live (Voice) · Gemini 4 · Model Context Protocol (MCP) · Local Ollama |
+| **Signals & OSINT** | RTL-SDR (Live RF) · OpenCelliD · CellMapper · Scapy (PCAP) · NetworkX · Cytoscape.js |
 
 ---
 
 ### ⚡ Selected Projects
-
-#### 🌸 [`Hasu`](https://github.com/getxeyronoxz/Hasu) &nbsp; `🟡 [In Testing / Current Focus]`
-*Private 3D desktop companion engineered for symbiotic human-AI interaction. Advanced in focused cycles.*
-* **Dual-Runtime Engine:** Native **Rust Core** host (`hasu-core`) handling transparent DirectComposition windowing and 60Hz physics, communicating over local IPC with a self-contained **.NET 10** sidecar (`desktop_agent.net`) for Win32 SendInput and UI Automation.
-* **Voice & Intelligence:** Real-time bidirectional voice streaming via Gemini 3.8 Live, multi-tier vector memory consolidation, and deep reasoning via Gemini 4.
-* **Security:** Keys sealed via local Windows DPAPI; interactive confirmation broker for OS actions; zero telemetry.
-* **Stack:** `Rust` · `.NET 10 (C#)` · `TypeScript` · `Three.js` · `Apache-2.0`
 
 #### 🛡️ [`local-upi-ledger`](https://github.com/getxeyronoxz/local-upi-ledger) &nbsp; `🟡 [In Deployment / Current Focus]`
 *Zero-permission UPI transaction aggregator engineered for Android 16 & 17.*
@@ -64,6 +57,12 @@ I build local-first software, defensive security tools, and high-assurance deskt
 * **Status:** Completed baseline release (`v1.0.1`). Currently frozen with no ongoing updates or active feature additions.
 * **Core Function:** Exact-decimal ledger calculations (zero floating-point drift) with atomic disk persistence and an air-gapped read-only stdio MCP server.
 * **Stack:** `TypeScript` · `Electron` · `React` · `Zod` · `stdio MCP` · `AGPL-3.0`
+
+#### 📡 [`XGhostSignal`](https://github.com/getxeyronoxz/XGhostSignal) &nbsp; `🟢 [v0.2.0 / Stable Baseline]`
+*Local-first OSINT & cellular intelligence workbench.*
+* **Status:** Stable release (`v0.2.0`). Dual high-speed CLI (`xgs`) and web console.
+* **Core Function:** Live RTL-SDR RF spectrum burst capture, cell-tower geospatial correlation, ADS-B flight tracking, and NetworkX entity correlation.
+* **Stack:** `Python 3.9+` · `FastAPI` · `Typer` · `SQLAlchemy` · `PyRtlSdr` · `Scapy` · `MIT`
 
 ---
 
