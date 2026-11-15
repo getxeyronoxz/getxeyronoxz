@@ -4,6 +4,7 @@
 **Systems Engineer · Defensive Security · Local-First Architecture**
 
 [![Activity Status](https://img.shields.io/badge/Activity-Low%20Online%20%2F%20Async%20Mode-6b7280?style=flat-square)](#)
+[![Portfolio](https://img.shields.io/badge/Portfolio-xeyronox.pages.dev-1f2937?style=flat-square&logo=cloudflare&logoColor=f38020)](https://xeyronox.pages.dev)
 [![GitHub](https://img.shields.io/badge/GitHub-getxeyronoxz-1f2937?style=flat-square&logo=github&logoColor=white)](https://github.com/getxeyronoxz)
 [![X](https://img.shields.io/badge/X-@xeyronox-1f2937?style=flat-square&logo=x&logoColor=white)](https://x.com/xeyronox)
 [![Instagram](https://img.shields.io/badge/Instagram-@xeyronox-1f2937?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/xeyronox)
@@ -24,8 +25,8 @@
 
 I build local-first software, defensive security tools, and high-assurance desktop and mobile systems. My work prioritizes **data sovereignty**, deterministic logic, and software that runs strictly on the operator's machine.
 
-> **Operational Notice:** Operating in **low-activity / async mode** due to personal commitments and offline priorities. I am less online and do not maintain constant presence, advancing code in focused intermittent windows.
-
+* **Portfolio:** [xeyronox.pages.dev](https://xeyronox.pages.dev)
+* **Operational Notice:** Operating in **low-activity / async mode** due to personal commitments and offline priorities. I am less online and do not maintain constant presence, advancing code in focused intermittent windows.
 * **Current Active Focus:** Directing available development time toward **local-upi-ledger** and low-overhead systems tooling.
 * **Systems & Desktop:** Native Windows and Linux utilities, offline data engines, and deterministic tools.
 * **Android Security:** In-memory accessibility parsing, 16 KB page alignment for Android 16/17, and hardware Keystore cryptographic isolation.
